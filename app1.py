@@ -13,7 +13,7 @@ def lerPalavra(palavra):
 		if teste == "s":
 			return data[get_close_matches(palavra, data.keys(), n=1,cutoff = 0.8)[0]]
 		elif teste == "n":
-			return "Desculpas não sabemos qual palavra deseja."
+			return "Desculpas não sabemos qual palavra desejo."
 		else:
 			return "Desculpas não entendemos o comando."
 	else:
